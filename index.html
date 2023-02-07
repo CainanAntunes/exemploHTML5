@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML5 Semântico</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#inicio"><img src="./img/code.png"></a></li>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="inicio">
+        <h1>Bem-vindo!</h1>
+        <p>Aqui você encontrará informações sobre o uso do HTML5 semântico em desenvolvimento web.</p>
+      </section>
+      <section id="sobre">
+        <h2>Sobre o HTML5 Semântico</h2>
+        <div>
+          <p>O HTML5 semântico é uma evolução da linguagem HTML que permite aos desenvolvedores criar estruturas mais significativas e ricas em conteúdo para seus sites e aplicativos.</p>
+          <img src="./img/html5.png">
+        </div>
+      </section>
+      <section id="produtos">
+        <h2>Outras Ferramentas</h2>
+        <div>
+          <ul>
+            <li>HiperText Marckup Language - HTML</li>
+            <li>Cascading Style Sheet - CSS</li>
+            <li>JavaScript - JS</li>
+          </ul>
+          <img src="./img/code.png">
+        </div>
+      </section>
+      <section id="contato">
+        <h2>Fale Conosco</h2>
+        <form>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email">
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem"></textarea>
+          <div id="checkbox">
+            <input type="checkbox" id="auth" name="authorization" value="yes">
+            <label for="auth"> Autorizo receber informações sobre HTML5 por e-mail.</label><br>
+          </div>
+          <input id="button" type="submit" value="Enviar">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Todos os direitos reservados - Meu Site HTML5 Semântico</p>
+    </footer>
+  </body>
+</html>
